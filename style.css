@@ -50,6 +50,7 @@ border:0
   font-family: 'Poppins', sans-serif;
    border-right: 2px solid var(--grey); 
   padding: 0 1em 0 0 ;
+  
 }
 .header-principal li a:hover{
   color: var(--orange);
@@ -69,10 +70,13 @@ border:0
     display: block;
   
 }
+.img {
+ width: 150px;
+ 
+
+}
 
 .conteudo {
   align-items: center;
-  
-
 
 }
