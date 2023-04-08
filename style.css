@@ -3,6 +3,8 @@
 :root{
   --orange: #E38500;
   --grey: #605C5C;
+  width: 100%;
+  height: 100%;
 }
 *{
 padding:0;
@@ -12,13 +14,24 @@ list-style:none;
 border:0
   
 }
-.top-header, .header-principal {
+.top-header {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
    color: #000;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
+
+}
+ .header-principal {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+   color: #000;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+ 
+ 
 }
 .top-header{
   border-bottom: 2px solid var(--orange);
@@ -92,6 +105,160 @@ text-align: center;
 }
 
 .titulo {
+  box-sizing: border-box;
+margin: 0;
+padding: 0;
+background: none;
+border: none;
+flex-shrink: 0;
+text-decoration: none;
+min-width: 0;
+overflow-wrap: anywhere;
+color: #605c5c;
+font-size: 59px;
+line-height: 59px;
+font-weight: bold;
+font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+'Liberation Sans', sans-serif;
+position: absolute;
+left: 313px;
+top: 242.1873px;
+width: 418.4656px;
+height: 142px;
 text-align: certer;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+display: flex;
 
 }
+
+.botao_cliente {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 100px;
+   border-radius: 10PX;
+    height: 50px; /* define a altura do botão proporcionalmente */
+  
+  
+ 
+}
+
+.botoes-inicio{
+font-family: sans-serif;
+box-sizing: border-box;
+background: none;
+border: none;
+flex-shrink: 0;
+text-decoration: none;
+min-width: 0;
+overflow-wrap: anywhere;
+position: absolute;
+top: 485.1873px;
+width: 1140px;
+height: 76px;
+align-items: flex-start;
+
+}
+
+.botao_naocliente {
+ font-family: sans-serif;
+  border: 1px solid #000;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 100px;
+    border-radius: 10PX;
+    height: 50px;
+}
+
+
+ .container {
+   
+    width: 100%;
+     align-items: center;  
+     padding-top: 12.0cm;
+     float:right;
+     box-sizing: border-box;
+     border: 1px solid red;
+     display: flex;
+     align-items: right;
+     flex-wrap: wrap;
+     padding-top: 1rem;
+ }
+
+.titulo_cashback {
+font-size: 50px;
+color: #E38500;
+ font-family: sans-serif;
+ box-sizing: border-box;
+ margin: 20px;
+ padding: 0;
+ background: none;
+ border: none;
+ flex-shrink: 0;
+ text-decoration: none;
+ min-width: 0;
+ overflow-wrap: anywhere;
+ position: absolute;
+ left: 650px;
+ top: 723px;
+ width: 700px;
+ height: 700px;
+ background-image: /* webpackIgnore: true */ url('assets/image1.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+}
+
+.paragrafo_cashback {
+  font-family: sans-serif;
+ box-sizing: border-box;
+ margin: 20px;
+ padding: 0;
+ background: none;
+ border: none;
+ flex-shrink: 0;
+ text-decoration: none;
+ min-width: 0;
+ overflow-wrap: anywhere;
+ position: absolute;
+ left: 650px;
+ top: 800px;
+ width: 700px;
+ height: 700px;
+}
+
+.footer {
+  height:auto;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align:;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+.img-2 {
+  position: absolute;
+  height: 50px; 
+}
+.links {
+font-family: sans-serif;
+box-sizing: border-box;
+margin: 5px;
+padding: 5px;
+background: none;
+border: none;
+flex-shrink: 0;
+text-decoration: none;
+min-width: 0;
+overflow-wrap: anywhere;
+position: absolute;
+left: 200px;
+top: 10px;
+height: 145.5156px;
+align-items: flex-start;
+display: block;
+} 
