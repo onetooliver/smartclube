@@ -262,3 +262,26 @@ height: 145.5156px;
 align-items: flex-start;
 display: block;
 } 
+
+.img_moça {
+font-family: sans-serif;
+box-sizing: border-box;
+margin-top: 50px;
+padding: 0;
+background: none;
+border: none;
+flex-shrink: 0;
+text-decoration: none;
+min-width: 0;
+overflow-wrap: anywhere;
+position: absolute;
+left: 0px;
+top: 113.1873px;
+width:100%;
+height: 592px;
+('assets/designSemNome1.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+}
