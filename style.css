@@ -140,9 +140,7 @@ display: flex;
     margin-left: 100px;
    border-radius: 10PX;
     height: 50px; /* define a altura do botão proporcionalmente */
-  
-  
- 
+    background-color: #f38e00db;
 }
 
 .botoes-inicio{
@@ -160,6 +158,8 @@ width: 1140px;
 height: 76px;
 align-items: flex-start;
 
+
+
 }
 
 .botao_naocliente {
@@ -170,6 +170,7 @@ align-items: flex-start;
     left: 550px;
     border-radius: 10PX;
     height: 50px;
+    background-color: #f38e00db;
 }
 
 
