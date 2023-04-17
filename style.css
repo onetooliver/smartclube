@@ -103,9 +103,9 @@ border:0
 .conteudo {
   display: flex;
 }
-main img {
+.conteudo img {
   width: 500px;
-  height: 500px;
+  reigth: 500px;
 }
 .text-conteudo section h1{
   color: #000;
@@ -123,81 +123,4 @@ main img {
 }
 .conteudo{
   justify-content: center;
-  display:block;
-  float:left;
-  padding-left: 8em;
-}
-.conteudo section h1{
-  color: #000;
-  font-size: 5rem;
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  
-}
-.botao{
-  justify-content: space-evenly;
-  
-}
-.botao_cliente {
-  background-color: var(--orange);
-  
-  border-radius: 30em;
-  font-size: 20px;
-  padding: 1em;
-}
-.botao_cliente:hover{
-  border: 4px #000 solid;
-  background-color: #fff;
-}
-.botao_cliente :first-child{
-  padding-right: 2em;
-}
-.text-cashback{
-  align-items: center;
-/*   float: left;   */
-  margin-left: 10em;
-}
-.text-cashback h1{
-  color: #000;
-  font-size: 5rem;
-  font-family: 'Poppins', sans-serif;
-}
-.text-cashback p{
-  color: #000;
-  font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 6em;
-}
-.cashback img{
-  width: 350px;
-  height : 300px;
-  border-radius: 5px;
-  
-  }
-  .cashback{
-    justify-content: center;
-  display: flex;
-  }
-.wave{
-  padding-bottom: -1em;
-}
-footer{
-  display: flex;
-  justify-content: space-around;
-  margin-top: -1em; 
-   padding: 3em 0;
-  background-color: var(--orange);
-  color: #fff;
-  font-size: 1em;
-  font-family: 'Poppins', sans-serif;
-  text-decoration: none;
-  
-}
-footer ul li a{
-  color: #fff;
-  font-size: 1em;
-  font-family: 'Poppins', sans-serif;
-  text-decoration: none;
-  
 }
